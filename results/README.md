@@ -10,5 +10,5 @@ This folder summarizeds main results from the ML-EMOS postprocessing experiments
 
 ### Interpretation
 
-The 10–20% improvement in CRPSS and BSS shows that using weather regimes as a physical constraint helps the MLP correct systematic bias and produce sharper forecasts. 
-However, the rank histograms point to a remaining issue: the model still struggles to properly calibrate the ensemble spread to make models more reliable.
+The improvement in CRPSS and BSS shows that implementing ML-EMOS and using weather regimes helps the model correct systematic bias and produce better forecasts.
+However, the rank histograms suggest a issue: the model struggles to properly calibrate the ensemble spread to make model more reliable.
