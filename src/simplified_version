@@ -1,4 +1,4 @@
-# This shows the simplified process of the ML-EMOS and doesn't include weather regimes
+# This shows the simplified process of the ML-EMOS at one location and doesn't include weather regimes
 
 import numpy as np
 import pandas as pd
