@@ -15,12 +15,15 @@ While numerical forecast systems like NEPS-G are powerful, but they often strugg
 ## Methodology
 
 This research employs Multilayer percetron (MLP) to postprocess NEPS-G rainfall forecasts at nine locations representing different geographical regions across India.
+
 The model transitions from a baseline configuration of 23 raw ensemble inputs to a 30-variable input incorporating 7 weather regimes to evaluate whether capturing atmospheric patterns can enhance forecast accuracy.
+
 ML-EMOS implements CRPS as the loss funtion for running the backwards process to update weighs and parameters in MLP.
 
 ## Setup
 
 Data analytic tools like numpy, pandas, especially Xarray, are used to handle large meteorological datasets.
+
 Deep learning framework Pytorch is used for this work.
 
 ## Data engineering
@@ -35,6 +38,7 @@ Feature preprocessing: Sort the 23 ensemble members. In meteorological statistic
 Our model is not merely a black box. To align with meteorological physical common sense, we incorporated a key design into the network:
 
 Linear mapping:  Y = W X + b, which learns the weighted coefficients between ensemble members.
+
 ReLU activation function: This serves as our physical constraint. Since precipitation cannot be negative, ReLU ensures that the model output is always greater than or equal to zero.
 
 ## Five-folds cross-validaiton
