@@ -51,7 +51,6 @@ This approach allows us to assess how well the model performs on "unseen anomalo
 
 ## Evaluation 
 
-- Frequency distribution: The
 - Rank histogram: used for reliability assessment of ensemble forecasts
 - Continuous Ranked Probability Skill Score (CRPSS): overall forecast performance of ensemble members (Thinking: Traditional MSE (Mean Squared Error) is only suitable for evaluating deterministic forecasts. In probabilistic forecasting, what we pursue is the "reliability" and "sharpness" of the predictions.); In this work, CRPS was also used as the loss function for training (via backpropagation).
 - Brier Skill Score (BSS): performance of predicting extreme precipitation events
