@@ -9,8 +9,8 @@ While numerical forecast systems like NEPS-G are powerful, but they often strugg
 ## Data Structure (Illustrative)
 
 - Ensemble forecasts: 23 NEPS-G ensemble members during the 2018-2022 monsoon seasons (Jun-Sep) with a lead time of 1 day.
-- observations: 0.25 * 0.25 degrees gridded datasets for 2018-2022
-- weather regimes: daily frequency of 7 weather regimes to strength forecast accuarcy
+- Observations: 0.25 * 0.25 degrees gridded datasets for 2018-2022
+- Weather regimes: daily frequency of 7 weather regimes to enhance forecast accuarcy and physical interpretability.
 
 ## Methodology
 
