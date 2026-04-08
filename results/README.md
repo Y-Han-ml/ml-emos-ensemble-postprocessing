@@ -1,6 +1,6 @@
 ## Results Summary
 
-This folder summarizeds main results from the ML-EMOS postprocessing experiments.
+This folder summarizeds main results from the ML-EMOS postprocessing experiments. (The original jupyter notebook including codes and results has lost due to the inappropriate use of Ubuntu, a linux system.)
 
 ### Main Outcomes
 
